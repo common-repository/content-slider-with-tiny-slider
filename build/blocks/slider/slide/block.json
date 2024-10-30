@@ -1,0 +1,38 @@
+{
+  "name": "content-sliders/slide",
+  "category": "content-sliders",
+  "apiVersion": 2,
+  "attributes": {
+    "minHeight": {
+      "type": "number"
+    },
+    "minHeightUnit": {
+      "type": "string"
+    }
+  },
+  "usesContext": [
+    "content-sliders/slider/preview-mode",
+    "content-sliders/slider/min-height",
+    "content-sliders/slider/min-height-unit"
+  ],
+  "title": "SLIDE ITEM",
+  "textdomain": "content-sliders",
+  "description": "Display multiple images, videos, and contents in a beautiful slideshow.",
+  "keywords": [
+    "slider",
+    "slideshow",
+    "content slider",
+    "content"
+  ],
+  "parent": [
+    "content-sliders/slider"
+  ],
+  "supports": {
+    "align": false,
+    "html": false,
+    "reusable": false
+  },
+  "style": "file:./block.css",
+  "editorStyle": "file:./editor.css",
+  "editorScript": []
+}

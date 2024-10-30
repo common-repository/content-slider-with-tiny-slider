@@ -1,0 +1,131 @@
+{
+  "name": "content-sliders/slider",
+  "category": "content-sliders",
+  "apiVersion": 2,
+  "providesContext": {
+    "content-sliders/slider/preview-mode": "previewMode",
+    "content-sliders/slider/min-height": "minHeight",
+    "content-sliders/slider/min-height-unit": "minHeightUnit"
+  },
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "wide"
+    },
+    "previewMode": {
+      "type": "boolean",
+      "default": true
+    },
+    "navigation": {
+      "type": "boolean",
+      "default": true
+    },
+    "pagination": {
+      "type": "boolean",
+      "default": true
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "speed": {
+      "type": "number",
+      "default": 400
+    },
+    "autoplayDelay": {
+      "type": "number",
+      "default": 3000
+    },
+    "pauseOnMouseEnter": {
+      "type": "boolean",
+      "default": true
+    },
+    "scrollbar": {
+      "type": "boolean",
+      "default": false
+    },
+    "effect": {
+      "type": "string"
+    },
+    "loop": {
+      "type": "boolean",
+      "default": false
+    },
+    "minHeight": {
+      "type": "number"
+    },
+    "minHeightUnit": {
+      "type": "string"
+    },
+    "arrowBackground": {
+      "type": "string"
+    },
+    "arrowColor": {
+      "type": "string"
+    },
+    "dotColor": {
+      "type": "string"
+    },
+    "dotActiveColor": {
+      "type": "string"
+    },
+    "arrowSize": {
+      "type": "number"
+    },
+    "arrowPadding": {
+      "type": "number"
+    },
+    "arrowRadius": {
+      "type": "number"
+    },
+    "arrowOffset": {
+      "type": "number"
+    },
+    "dotsSize": {
+      "type": "number"
+    },
+    "dotsOffset": {
+      "type": "number"
+    },
+    "dotsGap": {
+      "type": "number"
+    },
+    "arrowStyle": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "object",
+      "default": {}
+    }
+  },
+  "title": "Content Sliders",
+  "textdomain": "content-sliders",
+  "description": "Display multiple images, videos, and contents in a beautiful slideshow.",
+  "keywords": [
+    "slider",
+    "slideshow",
+    "content slider",
+    "content",
+    "cover",
+    "content-sliders"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false
+  },
+  "style": [
+    "swiper",
+    "file:./block.css"
+  ],
+  "editorStyle": "file:./editor.css",
+  "editorScript": [
+    "swiper"
+  ],
+  "viewScript": [
+    "swiper",
+    "file:./script.js"
+  ]
+}

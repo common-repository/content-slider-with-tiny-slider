@@ -1,0 +1,30 @@
+.content-sliders-slider {
+	border: 1px dashed #dddddd;
+	padding: 4px;
+
+	.content-sliders-toggle-edit-mode {
+		position: absolute;
+		right: 5px;
+		top: -42px;
+		z-index: 9;
+	}
+	
+	.content-sliders-slider-appender {
+		margin-top: 15px;
+		
+		button::before {
+			content: "+ Add \"NEW SLIDE ITEM\"";
+			font-size: 14px;
+			font-weight: 500;
+		}
+		
+		svg {
+			display: none;
+		}
+	}
+	
+	.content-sliders-slide > .wp-block-cover > .block-editor-media-placeholder {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+}
